@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UC视频</string>
+    <string name="star_play">开始播放</string>
+    <string name="play_status">播放状态</string>
+    <string name="player">播放器</string>
+
+    <string name="p2refresh_doing_end_refresh">加载中&#8230;</string>
+    <string name="no_network_tip_toast">似乎没有网络哦</string>
+    <string name="network_error_tips">网络连接出错，点击屏幕重新连接</string>
+
+    <string name="selections">选集</string>
+</resources>

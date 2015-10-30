@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="title">18dp</dimen>
+    <dimen name="loading_tx">13dp</dimen>
+</resources>
