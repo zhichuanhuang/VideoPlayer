@@ -720,12 +720,12 @@ public class UCMediaPlayer extends FrameLayout implements ControllerCallback, Vi
     }
 
     /** 提供外部设置缩放按钮点击事件监听*/
-    public void setZoomListener(View.OnClickListener zoomListener) {
+    public void setOnZoomListener(View.OnClickListener zoomListener) {
         this.zoomListener = zoomListener;
     }
 
     /** 提供外部设置返回按钮点击事件监听*/
-    public void setBackListener(View.OnClickListener backListener) {
+    public void setOnBackListener(View.OnClickListener backListener) {
         this.backListener = backListener;
     }
 

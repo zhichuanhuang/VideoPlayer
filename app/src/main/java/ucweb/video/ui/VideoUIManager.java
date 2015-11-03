@@ -63,8 +63,8 @@ public class VideoUIManager extends BaseUIManager implements View.OnClickListene
         // 播放器
         ucMediaPlayer = (UCMediaPlayer) ((Activity) mContext).findViewById(R.id.media_player);
         ucMediaPlayer.onCreate(PlayerParams.SCREEN_FULL);
-        ucMediaPlayer.setBackListener(this);
-        ucMediaPlayer.setZoomListener(this);
+        ucMediaPlayer.setOnBackListener(this);
+        ucMediaPlayer.setOnZoomListener(this);
         ucMediaPlayer.setMediaPlayerCallback(this);
         ucMediaPlayer.setOnPreparedListener(onPreparedListener);
         ucMediaPlayer.setOnErrorListener(onErrorListener);
